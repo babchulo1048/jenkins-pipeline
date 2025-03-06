@@ -22,7 +22,8 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 17
-          distribution: adoptopenjdk
+          distribution: adoptium
+
 
       # Step 3: Build your Spring Boot application (build the JAR)
       - name: Build Spring Boot app
